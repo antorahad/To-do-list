@@ -34,7 +34,6 @@ body{
 .list-head{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    gap: 0px;
 }
 
 .entered-list{
