@@ -1,3 +1,14 @@
+const body = document.querySelector(".todo-list"),
+toggle = document.querySelector(".toggle");
+
+
+
+toggle.addEventListener("click", () => {
+    body.classList.toggle("dark");
+})
+
+toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+
 let input = document.querySelector(".entered-list");
 let addBtn = document.querySelector(".add-list");
 let tasks = document.querySelector(".tasks");
